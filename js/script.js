@@ -41,9 +41,10 @@ var getMeetings = function() {
 
         return "<div class='meeting'><ul class='info'><li>" + meetingTime + meetingName 
         + meetingLocation + "</li></ul>" +meetingAttendees + "</div>"
-        
+       
       
       });
+
 
       $('.meetings').append(allMeetings) 
     }
