@@ -82,6 +82,7 @@ h1.title {
 .meeting-location {
 	color: #777777;
 }
+
 img {
 	border-radius: 50%;
 	border: 3px solid #FF6347;
@@ -133,4 +134,9 @@ li {
         -moz-transform:    translateX(-25%); 
     }
 }
-
+.meeting-alert {
+	background-color: #FF6347;
+	color: white;
+	text-align: center;
+	margin: 5px;
+}
