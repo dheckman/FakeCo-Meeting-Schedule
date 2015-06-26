@@ -21,7 +21,6 @@ var getMeetings = function() {
 
         // cueing audience when meetings are about to start
         var meetingCue = "Beginning " + moment(meeting.start_time).fromNow();
-        var currentTime = moment().format('hh:mm');
         var meetingAlert = function(s) {
         	var meetingSoon = moment(s).subtract(15, 'minutes');
          	if (meetingSoon > moment()) {

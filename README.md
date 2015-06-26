@@ -5,3 +5,5 @@ My objective was to take a wireframe of FakeCo's meeting schedule and turn it in
 
 I stuck to basic HTML/CSS/JavaScript as well as JQuery and Moment.js for time.
 
+I decided to go with horizontal scrolling as I think it's the most easily readable and informative. I didn't get a chance to update the rooms when occupied, though it does notify the viewer when a meeting is upcoming. 
+
