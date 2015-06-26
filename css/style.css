@@ -1,0 +1,136 @@
+html {
+	height: 100%;
+	overflow: hidden;
+}
+
+
+@media (max-width: 1100px) {
+	body img {
+		height: 60px;
+		width: 60px;
+	}
+	body .meeting-name {
+		font-size: 1.5em;
+	}
+}
+@media (max-width: 900px) {
+	body img {
+		height: 40px;
+		width: 40px;
+	}
+	body .meeting-name {
+		font-size: 1.2em;
+	}
+}
+body {
+	font-family: 'Domine', serif;
+}
+header {
+	height: 80px;
+	width: 100%;
+	background: #2892A5;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+h1.title {
+	color: white;
+	font-size: 2em;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	float: left;
+	text-shadow: 1px 1px #FF6347;
+}
+.time-frame {
+	float: right;
+	margin-top: 30px;
+	margin-right: 10px;
+	color: white;
+
+}
+#time {
+	display: inline;
+	color: white;
+	font-family: 'Domine', serif;
+	border-bottom: 2px solid #FF6347;
+}
+.meetings {
+	color: black;
+	margin: 100px auto 0 auto;
+	display: inline-flex;
+	position: relative;
+  left: 0;
+  top: 0;
+  -webkit-animation: moveSlideshow 20s linear 5s infinite ;
+  -moz-animation:    moveSlideshow 20s linear 5s infinite;
+}
+
+.meeting {
+	padding: 10px;
+	border-right: 2px solid #FF6347;
+
+}
+.meeting-time {
+	color: #ABABAB;
+}
+.meeting-name {
+	color: #2892A5;
+	font-size: 2em;
+	margin-right: 100px;
+}
+.meeting-location {
+	color: #777777;
+}
+img {
+	border-radius: 50%;
+	border: 3px solid #FF6347;
+	height: 80px;
+	width: 80px;
+}
+.photos {
+	display: block;
+}
+.photos li {
+	list-style-type: none;
+	display: inline;
+}
+.name {
+	color: white;
+	font-size: .8em;
+	font-weight: bold;
+	border-bottom: 2px solid #2892A5;
+	text-align:center;
+	background-color: #2892A5; 
+}
+li {
+	margin: 10px;
+}
+.info {
+	list-style-type: none;
+}
+.people {
+	display: flex;
+}
+.slideshow {
+  position: relative;
+  overflow: hidden;
+
+}
+@-webkit-keyframes moveSlideshow {
+    0%   { 
+        -webkit-transform: translateX(0);  
+    }    
+    100% { 
+        -webkit-transform: translateX(-25%);  
+    }
+}
+@-moz-keyframes moveSlideshow {
+    0%   { 
+        -moz-transform:    translateX(0); 
+    }    
+    100% { 
+        -moz-transform:    translateX(-25%); 
+    }
+}
+
