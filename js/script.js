@@ -24,7 +24,7 @@ var getMeetings = function() {
         var meetingAlert = function(s) {
         	var meetingSoon = moment(s).subtract(15, 'minutes');
          	if (meetingSoon > moment()) {
-            return meetingCue;
+            return meetingCue; 
 					}
         	else {
         		return '';
